@@ -1,0 +1,33 @@
+
+/* -dominant-color: #jjjjj */
+
+h1 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  background-color: rgb(12, 36, 71);
+}
+
+.centerbuttons {
+  color: white;
+  text-align: center;
+
+}
+a, a:visited {
+  text-decoration: none;
+}
+a:hover, a:active, a:focus {
+  color:#c33;
+}
+body {
+  font-size: 20px;
+  /* Setting backgorund image */
+  background-image: url('images/softGreen.jpg');
+  /* Keep it from repeating */
+  background-repeat: no-repeat;
+  /* stretch to fit screen */
+  background-size: cover;
+}
+form {
+  text-align: center;
+}
