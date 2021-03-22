@@ -8,13 +8,11 @@
 </head>
 <body>
   <div id= "results"></div>
+   <?php 
+ echo $_POST["Weight"];
+ echo "hello";
+ ?>
  <a href="profile.php">Return</a>
-  <script>
-    const resultsList = document.getElementById('results')
-    new URLSearchParams(window.location.search).forEach((Value,name)= >{
-      resultsList.append('${name}: ${value}')
-      resutsList.append(document.createElement('br'))
-    })
-    </script>
+ 
 </body>
 </html>
