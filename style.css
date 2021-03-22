@@ -8,6 +8,21 @@ h1 {
   background-color: rgb(12, 36, 71);
 }
 
+
+#form {
+  background-color: rgb(12, 36, 71);
+    padding: 100px;
+    text-align: right;
+    margin: auto;
+    display: table;
+}
+
+
+.container input {
+  width: 100px;
+  align-self: stretch;
+  /* clear: both; */
+}
 .centerbuttons {
   color: white;
   text-align: center;
@@ -29,5 +44,6 @@ body {
   background-size: cover;
 }
 form {
+  color: white;
   text-align: center;
 }
