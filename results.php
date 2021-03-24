@@ -9,8 +9,9 @@
 <body>
   <div id= "results"></div>
    <?php 
+    
+
  echo $_POST["Weight"];
- echo "hello";
  ?>
  <a href="profile.php">Return</a>
  

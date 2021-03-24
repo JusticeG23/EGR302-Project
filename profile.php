@@ -7,30 +7,31 @@
      <title>Form </title>
      </head>
      <body>
+    
      <?php 
      if(isset($_POST["submit"]])){
        $weight= $_POST["Weight"];
        $Height= $_POST["Height"];
        $Age= $_POST["age"];
        $BMI = $_POST["BMI"];
-      $sex= $_POST["Sex"];
+       $sex= $_POST["Sex"];
      }
      ?>
       <form action= "results.php" method= "POST">
       <div>
-      Weight: <input type="text" name="Weight">
+      <text>Weight: </text><input type="text" name="Weight">
       </div>
       <div>
-      Height:<input type="text" name="Height">
+      Height: <input type="text" name="Height">
       </div>
       <div>
-       Age:<input type="text" name="age">
+       Age: <input type="text" name="age">
       </div>
       <div>
      Body Mass Index: <input type="text" name="BMI"> 
       </div>
       <div>
-      Sex:<input type="text" name="Sex"> 
+      Sex: <input type="text" name="Sex"> 
       </div>
       <div>
        <button type= "reset"> reset </button>

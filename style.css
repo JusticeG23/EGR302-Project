@@ -9,24 +9,29 @@ h1 {
 }
 
 
-#form {
+.form {
   background-color: rgb(12, 36, 71);
     padding: 100px;
     text-align: right;
     margin: auto;
     display: table;
+    border-radius: 15px;
+}
+.input {
+  border-radius: 15px;
+  box-shadow: 0px;
 }
 
 
 .container input {
   width: 100px;
   align-self: stretch;
-  /* clear: both; */
 }
 .centerbuttons {
   color: white;
   text-align: center;
-
+  border-radius: 10px;
+  /* background-color: #AAA; */
 }
 a, a:visited {
   text-decoration: none;
